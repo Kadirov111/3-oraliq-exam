@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=".gitignore va keraksiz fayllarni repoga tushishining oldini olish haqida">
+    <title>.gitignore va Django loyihasi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+        .container {
+            max-width: 800px;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            background: #ff6f00;
+            margin: 8px 0;
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+        p {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>.gitignore va Django loyihasi</h1>
+    <p>Quyidagi fayllar va papkalar <strong>.gitignore</strong> orqali repoga tushishining oldi olinadi:</p>
+    <ul>
+        <li><strong>.idea/</strong> – PyCharm yoki boshqa IDE sozlamalari</li>
+        <li><strong>__pycache__/</strong> – Python kesh fayllari</li>
+        <li><strong>db.sqlite3</strong> – Mahalliy SQLite bazasi</li>
+        <li><strong>env/ yoki venv/</strong> – Virtual muhit papkasi</li>
+    </ul>
+
+    <p>Django loyihasi quyidagi xususiyatlarga ega:</p>
+    <ul>
+        <li>✅ <strong>Template vorisdorligi</strong> – Barcha sahifalar <code>base.html</code> orqali umumiy dizaynga ega</li>
+        <li>✅ <strong>Database relations</strong> – Model bog‘lanishlari to‘g‘ri tuzilgan</li>
+        <li>✅ <strong>Filter, search, order</strong> – Ma’lumotlarni qidirish va saralash imkoniyati</li>
+        <li>✅ <strong>SEO-friendly URLs</strong> – Sahifalar yaxshi indekslanadi</li>
+        <li>✅ <strong>ModelAdmin</strong> – Barcha modellar uchun user-friendly admin panel</li>
+    </ul>
+</div>
+
+</body>
+</html>

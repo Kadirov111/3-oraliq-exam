@@ -1,0 +1,137 @@
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #e2e8f0;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(135deg, #5a67d8, #6b46c1);
+}
+
+/* Custom styles for blog posts */
+.blog-post {
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.blog-post:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+    transform: translateY(-4px);
+}
+
+/* Responsive font sizes */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.75rem;
+    }
+    h2 {
+        font-size: 1.4rem;
+    }
+    p {
+        font-size: 0.95rem;
+    }
+}
+
+/* Custom styles for buttons */
+.custom-button {
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+}
+
+.custom-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Gradient background for featured sections */
+.featured-section {
+    background: linear-gradient(135deg, #4c51bf, #6b46c1);
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+/* Custom styles for form inputs */
+.custom-input {
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 6px;
+}
+
+.custom-input:focus {
+    border-color: #5a67d8;
+    box-shadow: 0 0 8px rgba(90, 103, 216, 0.5);
+}
+
+/* Styles for tags and categories */
+.tag {
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+    border-radius: 4px;
+}
+
+.tag:hover {
+    background-color: #5a67d8;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* Custom styles for author bio */
+.author-bio {
+    border-left: 5px solid #5a67d8;
+    padding-left: 1.2rem;
+    font-style: italic;
+    background: #f7fafc;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+/* Styles for blockquotes */
+blockquote {
+    border-left: 5px solid #5a67d8;
+    padding-left: 1.2rem;
+    font-style: italic;
+    color: #4a5568;
+    background: #edf2f7;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+/* Custom styles for code blocks */
+pre {
+    background-color: #1a202c;
+    color: #e2e8f0;
+    padding: 1.2rem;
+    border-radius: 6px;
+    overflow-x: auto;
+}
+
+/* Responsive grid for featured posts */
+.featured-posts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.2rem;
+}
+
+/* Custom styles for newsletter form */
+.newsletter-form {
+    background-color: #edf2f7;
+    border-radius: 8px;
+    padding: 1.8rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* Styles for social media icons */
+.social-icon {
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+    transform: scale(1.25) rotate(5deg);
+}
